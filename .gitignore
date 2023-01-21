@@ -136,4 +136,5 @@ dmypy.json
 *.ckpt
 =======
 *.pt
+*.ckpt
 >>>>>>> a39c0fd (first sub)
