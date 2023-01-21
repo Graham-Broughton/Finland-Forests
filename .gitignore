@@ -131,10 +131,5 @@ dmypy.json
 
 *.tif
 *.tgz
-<<<<<<< HEAD
 *.pt
 *.ckpt
-=======
-*.pt
-*.ckpt
->>>>>>> a39c0fd (first sub)
