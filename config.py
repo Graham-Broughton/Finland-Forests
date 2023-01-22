@@ -1,12 +1,33 @@
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict, field
+
 
 @dataclass
 class CFG:
-
     SEED: int = 42
-    BATCH_SIZE: int = 32
-    WORKERS: int = 8
+    BATCH_SIZE: int = 64
+    WORKERS: int = 14
+    EPOCHS: int = 50
+    LR: int = 0.02
+    PREFETCH: int = 2
+    BANDS: list[int] = field(default_factory=lambda: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 18, 19, 20, 21])
+    TRAIN_FRAC: float = 0.8
+    MAX_CHIPS: int = None
+    WORKING_DIR: str = '/home/broug/Desktop/DD-Finland-Forests'
+    DIR_TILES: str = f'{WORKING_DIR}/data/train/train_features/'
+    DIR_TARGET: str = f'{WORKING_DIR}/data/train/train_agbm/'
+    DIR_TEST: str = f'{WORKING_DIR}/data/test/test_features/'
+    SAVED_MODELS: str = f'{WORKING_DIR}/trained_models/'
+    TILE_FILE: str = f'{WORKING_DIR}/data/TILE_LIST_BEST_MONTHS.csv'
+    TILE_FILE_TEST: str = f'{WORKING_DIR}/data/TILE_LIST_BEST_TEST_MONTHS.csv'
+    DIR_PREDS: str = f'{WORKING_DIR}/predictions/baseline/'
+
+    def todict(self):
+        return asdict(self)
+
+
+@dataclass
+class CFG2:
 
     BAND_MAP = {  
         # S2 bands

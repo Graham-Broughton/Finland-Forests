@@ -43,7 +43,7 @@ class SentinelDataset(Dataset):
         return len(self.df_tile_list)
 
     def __getitem__(self, idx):
-        chipid, month = self.df_tile_list.iloc[idx].values
+        chipid, month = self.df_tile_list.loc[idx, ['chipid', 'month']].values
         # Sentinel 1
         try:
             s1_tile = self._load_sentinel_tiles('S1', chipid, month)

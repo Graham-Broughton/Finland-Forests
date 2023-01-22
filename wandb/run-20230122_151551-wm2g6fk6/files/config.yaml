@@ -1,0 +1,106 @@
+wandb_version: 1
+
+BANDS:
+  desc: null
+  value:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+BATCH_SIZE:
+  desc: null
+  value: 28
+DIR_PREDS:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/predictionss/baseline/
+DIR_TARGET:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/data/train/train_agbm/
+DIR_TEST:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/data/test/test_features/
+DIR_TILES:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/data/train/train_features/
+EPOCHS:
+  desc: null
+  value: 5
+LR:
+  desc: null
+  value: 0.02
+MAX_CHIPS:
+  desc: null
+  value: null
+SAVED_MODELS:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/trained_models/
+SEED:
+  desc: null
+  value: 42
+TILE_FILE:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/data/TILE_LIST_BEST_MONTHS.csv
+TILE_FILE_TEST:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests/data/TILE_LIST_BEST_TEST_MONTHS.csv
+TRAIN_FRAC:
+  desc: null
+  value: 0.8
+WORKERS:
+  desc: null
+  value: 14
+WORKING_DIR:
+  desc: null
+  value: /home/broug/Desktop/DD-Finland-Forests
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.9
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.15
+    session_history: code/_session_history.ipynb
+    start_time: 1674400551.305544
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 63
+      - 74
+      - 79
+      2:
+      - 1
+      - 41
+      - 55
+      - 63
+      - 74
+      - 79
+      3:
+      - 1
+      - 2
+      - 15
+      - 16
+      - 23
+      4: 3.9.15
+      5: 0.13.9
+      8:
+      - 1
+      - 5

@@ -1,0 +1,124 @@
+{
+    "os": "Linux-4.19.0-23-cloud-amd64-x86_64-with-glibc2.28",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-01-22T17:42:35.432192",
+    "startedAt": "2023-01-22T17:42:35.070952",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Graham-Broughton/DD-Finland-Forests.git",
+        "commit": "54e6067bb7c4308a504a69b0ecc3d2046d1a236f"
+    },
+    "email": "broughton.graham@gmail.com",
+    "root": "/home/broug/Desktop/DD-Finland-Forests",
+    "host": "gpu",
+    "username": "broug",
+    "executable": "/opt/conda/envs/new/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2299.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 393.4685516357422,
+        "used": 352.6192817687988
+    },
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 102.28841400146484
+    }
+}
