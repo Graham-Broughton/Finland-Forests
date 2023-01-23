@@ -6,7 +6,7 @@ from dataclasses import dataclass, asdict, field
 class CFG:
     SEED: int = 42
     BATCH_SIZE: int = 64
-    WORKERS: int = 14
+    WORKERS: int = 0
     EPOCHS: int = 50
     LR: int = 0.02
     PREFETCH: int = 2
