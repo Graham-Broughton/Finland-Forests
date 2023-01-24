@@ -133,3 +133,4 @@ dmypy.json
 *.tgz
 *.pt
 *.ckpt
+*/biomassters-public/*
