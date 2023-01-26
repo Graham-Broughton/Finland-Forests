@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+*.tif
+*.tgz
+*.pt
+*.ckpt
+*/biomassters-public/*
+!**/0003d2eb*.tif
+!**/000aa810*.tif
+!**/000d7e33*.tif
+!**/00184691*.tif
+!**/001b0634*.tif
