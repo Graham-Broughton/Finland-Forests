@@ -1,4 +1,13 @@
 from dataclasses import dataclass, field
+import os
+
+
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_PATH, 'data')
+TILES = os.path.join(DATA_PATH, 'train', 'train_features')
+GT = os.path.join(DATA_PATH, 'train', 'train_agbm')
+TEST = os.path.join(DATA_PATH, 'test')
+METADATA = os.path.join(DATA_PATH, 'features_metadata.csv')
 
 
 @dataclass
@@ -26,3 +35,9 @@ class CFG:
     padding_mode: str = 'reflect'
     val_every: int = 1
     val_after: int = 0
+    BASE_PATH: str = BASE_PATH
+    DATA_PATH: str = DATA_PATH
+    TILES: str = TILES
+    GT: str = GT
+    TEST: str = TEST
+    METADATA: str = METADATA
